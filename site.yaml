@@ -13,13 +13,13 @@ plugins:
     - hyde.ext.plugins.textlinks.TextlinksPlugin
 context:
     data:
-        tweet_via: jakevdp
+        tweet_via: kwwillett
 meta:
     nodemeta: meta.yaml
-    created: !!timestamp 2013-04-18 00:00:00
-    author: Jake VanderPlas
+    created: !!timestamp 2015-08-16 00:00:00
+    author: Kyle Willett
     analytics:
-        id: UA-11762888-1
+        id: UA-35551540-1
 
 sorter:
     time:

@@ -1,6 +1,8 @@
-My Personal Web Page, built with [Hyde](http://hyde.github.io/)
+My personal webpage, built with [Hyde](http://hyde.github.io/).
 
-See the rendered version at http://www.astro.washington.edu/users/vanderplas
+See the rendered version at http://homepages.spa.umn.edu/~willett/
+
+Adapted from work by [Jake VanderPlas](https://github.com/jakevdp/website).
 
 Building
 ========
@@ -15,7 +17,7 @@ Generate version for local development:
     make gen
 
 Preview local version
-(this is previewable in the browser at localhost:8080 -- Kill with ctrl-C)
+(this is previewable in the browser at localhost:8080 -- kill with ctrl-C)
 
     make serve
 
