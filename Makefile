@@ -20,4 +20,4 @@ gen-production: clean
 	hyde gen -c production.yaml
 
 publish: CV gen-production	
-	rsync -e ssh -r deploy_production/ lucifer1.spa.umn.edu:/homepages/spa/umn/edu/~willett/
+	rsync -e ssh -r deploy_production/ willett@lucifer1.spa.umn.edu:public_html/

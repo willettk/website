@@ -1,8 +1,8 @@
 extends: site.yaml
 
 mode: production
-media_url: /~/willett/media
-base_url: /~/willett
+media_url: /~willett/media
+base_url: /~willett
 deploy_root: deploy_production
 
 publisher:
@@ -10,5 +10,5 @@ publisher:
         type: hyde.ext.publishers.ssh.SSH
         username: willett
         server: lucifer1.spa.umn.edu
-        target: /homepages/spa/umn/edu/~willett
+        target: /home/phys/willett/public_html/
         
