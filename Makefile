@@ -8,7 +8,7 @@ content/media/pdfs/cv.pdf: CV/cv.tex
 	cp CV/cv.pdf content/media/pdfs/
 
 racelist:
-	cp content/racelist.html deploy_production
+	cp content/racelist.html deploy_production/
     
 gen: CV racelist
 	hyde gen
