@@ -27,6 +27,7 @@
       header h1 { margin-bottom: 5px; }
       header h1 a { color: #494949; font-weight: bold; }
       header h3 { margin-top: 20px; margin-bottom: 5px; }
+      header h4 { margin-top: 20px; margin-bottom: 5px; }
       header p.view { margin-bottom: 5px; }
       header p.view small { padding-top: 2px; }
       header p.foo { margin-bottom: 0px; }
@@ -36,7 +37,7 @@
         zoom: 0.7;
         margin-top: 25px;
       }
-      section p { margin-top: 10px; }
+      section p { margin-top: 10px;}
       section h1 { margin-bottom: 15px; }
       section h2 { margin-bottom: 10px; }
       section h2 { margin-bottom: 10px; }
@@ -86,18 +87,16 @@
 	{% endblock nav %}
 	  
 	    {% block web %}
-        <h3>On the Web</h3>
+        <h4>On the Web</h4>
         <p class="view"><a href="http://github.com/willettk" target="tab">GitHub</a>
         <p class="view"><a href="http://twitter.com/kwwillett" target="tab">Twitter</a>
-        <p class="email">willett@physics.umn.edu</a>
+        <p class="email">kw@kylewillett.com</a>
         {% endblock web %}
 
 	    {% block offweb %}
-        <h3>Off the Web</h3>
-        <p class="foo"><small>School of Physics and Astronomy</small></a>
-        <p class="foo"><small>University of Minnesota</small></a>
-        <p class="foo"><small>116 Church St. SE</small></a>
-        <p class="foo"><small>Minneapolis, MN 55455</small></a>
+        <h4>Off the Web</h4>
+        <p class="foo"><small>Fellow, Insight Data Science<h/small></a>
+        <p class="foo"><small>Palo Alto, CA/Lexington, KY (remote)</small></a>
         {% endblock offweb %}
 
       </header>
